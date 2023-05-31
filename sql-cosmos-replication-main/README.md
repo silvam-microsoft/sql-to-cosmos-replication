@@ -10,7 +10,7 @@ In this example we leverage AdventureWorks2019, converting the Person table alon
 
 The components are designed to be as generic as possible. The construction of the JSON records is encapsulated in a stored procedure by leveraging `FOR JSON` clauses. There are two control tables: one which defines which collections should be exported, and another which stores the export history. Finally a generic C# utility can be used to export any collection, in a metadata driven fashion.
 
-This demo was created in collaboration with Luciano Moreira ([luticm](https://github.com/luticm)) and Marcelo Silva ([silvam-microsoft](https://github.com/silvam-microsoft))
+This demo was created in collaboration with Luciano Moreira ((https://github.com/luticm)) and Marco Cardoso ([MarcoCardoso](https://github.com/MarcoCardoso))
 
 
 ## Quickstart instructions (AdventureWorks2019)
